@@ -45,7 +45,7 @@ This project focuses on laptop disassembly and component identification. No hard
 
 The laptop was inspected externally before disassembly. Photographs of the top case and overall condition were taken to document the starting state of the device.
 
-![Step 1 - Laptop Top Case](IMAGE_URL_HERE)
+![Step 1 - Laptop Top Case](https://files.catbox.moe/v45nxm.png)
 
 ---
 
@@ -53,7 +53,7 @@ The laptop was inspected externally before disassembly. Photographs of the top c
 
 The laptop was powered off using the power button to ensure the system was completely shut down before beginning the teardown process.
 
-![Step 2 - Powering Off](IMAGE_URL_HERE)
+![Step 2 - Powering Off](https://files.catbox.moe/i8dw47.png)
 
 ---
 
@@ -61,7 +61,7 @@ The laptop was powered off using the power button to ensure the system was compl
 
 The underside of the laptop was photographed before disassembly to document screw locations and chassis design.
 
-![Step 3 - Bottom Cover](IMAGE_URL_HERE)
+![Step 3 - Bottom Cover](https://files.catbox.moe/pxufmm.png)
 
 ---
 
@@ -81,7 +81,7 @@ The bottom cover was carefully removed using a plastic pry tool. Internal compon
 * Speakers
 * Display Connectors
 
-![Step 4 - Internal Layout](IMAGE_URL_HERE)
+![Step 4 - Internal Layout](https://files.catbox.moe/ufti4u.png)
 
 ---
 
@@ -93,7 +93,7 @@ The memory slots were examined to determine upgrade capability.
 
 The RAM can be upgraded by replacing the existing memory modules with higher-capacity compatible DDR4 modules.
 
-![Step 5 - RAM Slots](IMAGE_URL_HERE)
+![Step 5 - RAM Slots](https://files.catbox.moe/oz96e7.png)
 
 ---
 
@@ -105,7 +105,7 @@ The M.2 storage slot and SSD were inspected.
 
 The installed NVMe SSD can be replaced with a larger-capacity or higher-performance NVMe SSD.
 
-![Step 6 - NVMe SSD](IMAGE_URL_HERE)
+![Step 6 - NVMe SSD](https://files.catbox.moe/of1uzk.png)
 
 ---
 
@@ -113,7 +113,7 @@ The installed NVMe SSD can be replaced with a larger-capacity or higher-performa
 
 The battery connector was disconnected from the motherboard before further disassembly. The battery was then removed safely.
 
-![Step 7 - Battery Removal](IMAGE_URL_HERE)
+![Step 7 - Battery Removal](https://files.catbox.moe/q009dj.png)
 
 ---
 
@@ -125,7 +125,7 @@ A close-up image of the battery specifications was captured for documentation pu
 
 The battery is a replaceable component and can be exchanged when battery health degrades.
 
-![Step 8 - Battery Details](IMAGE_URL_HERE)
+![Step 8 - Battery Details](https://files.catbox.moe/5w4prx.png)
 
 ---
 
@@ -137,7 +137,7 @@ The wireless network card located beneath the SSD area was identified and docume
 
 The Wi-Fi card can potentially be upgraded to support newer wireless standards if compatible with the system.
 
-![Step 9 - Wi-Fi Card](IMAGE_URL_HERE)
+![Step 9 - Wi-Fi Card](https://files.catbox.moe/7hahob.png)
 
 ---
 
@@ -145,7 +145,7 @@ The Wi-Fi card can potentially be upgraded to support newer wireless standards i
 
 The CPU cooling fan mounting screws were removed to allow further disassembly.
 
-![Step 10 - CPU Fan Removal](IMAGE_URL_HERE)
+![Step 10 - CPU Fan Removal](https://files.catbox.moe/1hqtds.png)
 
 ---
 
@@ -157,7 +157,10 @@ A close-up image of the cooling fan and its specifications was captured.
 
 The cooling fan can be cleaned or replaced if airflow performance decreases or excessive noise develops.
 
-![Step 11 - Cooling Fan Details](IMAGE_URL_HERE)
+<p align="center">
+  <img src="https://files.catbox.moe/52502v.png" width="48%">
+  <img src="https://files.catbox.moe/pxna40.png" width="48%">
+</p>
 
 ---
 
@@ -165,7 +168,7 @@ The cooling fan can be cleaned or replaced if airflow performance decreases or e
 
 The LCD display cable was disconnected from the motherboard.
 
-![Step 12 - LCD Connector](IMAGE_URL_HERE)
+![Step 12 - LCD Connector](https://files.catbox.moe/p7f34i.png)
 
 ---
 
@@ -173,7 +176,7 @@ The LCD display cable was disconnected from the motherboard.
 
 The DC-in power cable was disconnected from the motherboard.
 
-![Step 13 - DC Power Connector](IMAGE_URL_HERE)
+![Step 13 - DC Power Connector](https://files.catbox.moe/rwqdz3.png)
 
 ---
 
@@ -181,27 +184,43 @@ The DC-in power cable was disconnected from the motherboard.
 
 The keyboard and touchpad ribbon cables were disconnected from the motherboard.
 
-![Step 14 - Keyboard and Touchpad Cables](IMAGE_URL_HERE)
+<p align="center">
+  <img src="https://files.catbox.moe/jn6k8q.png" width="48%">
+  <img src="https://files.catbox.moe/2tikpa.png" width="48%">
+</p>
 
 ---
 
-## Step 15: Motherboard Preparation
 
-All major cables and connectors were disconnected. An annotated image was created to identify each connector before motherboard removal.
+## Step 15: Connector and Interface Identification
 
-### Connectors Identified
+Before removing the motherboard, all major connectors and interfaces were documented and labeled. This step helps identify how the laptop's internal components communicate with the motherboard and provides a useful reference for future maintenance and repairs.
 
-* LCD Display Connector
-* DC Power Connector
-* Keyboard Connector
-* Touchpad Connector
-* Fan Connector
-* Battery Connector
-* Wi-Fi Antenna Leads
+### Connectors and Interfaces Identified
 
-![Step 15 - Motherboard Connectors](IMAGE_URL_HERE)
+- Display Cable (eDP) Connector
+- Keyboard Ribbon Cable Connector
+- Battery Connector
+- CPU Fan Header
+- Main NVMe M.2 Slot
+- WLAN (Wi-Fi) Module Slot
+- I/O Board Interconnect Cable
+- RAM Module Area
+- CPU Socket and VRAM Area
+- GPU Socket and VRAM Area
+- Speaker Connections
+- 2.5-inch SATA Drive Bay Interface
+- PCH Chipset Area
+- Thermal Solution Assembly
+
+### Technical Observation
+
+This image provides a complete overview of the motherboard layout and internal connectivity. By documenting connector locations before motherboard removal, reassembly becomes easier and the overall system architecture can be better understood.
+
+![Step 15A - Motherboard Connector Layout](https://files.catbox.moe/9xjnti.png)
 
 ---
+
 
 ## Step 16: Motherboard Removal
 
@@ -211,7 +230,7 @@ The motherboard was carefully removed from the chassis.
 
 The motherboard contains the CPU, GPU, power delivery circuitry, storage interfaces, and system connectors responsible for laptop operation.
 
-![Step 16 - Motherboard Removed](IMAGE_URL_HERE)
+![Step 16 - Motherboard Removed](https://files.catbox.moe/0676iz.png)
 
 ---
 
@@ -223,7 +242,7 @@ The keyboard assembly was separated from the main chassis.
 
 The keyboard assembly can be replaced if keys become damaged, worn out, or non-functional.
 
-![Step 17 - Keyboard Assembly](IMAGE_URL_HERE)
+![Step 17 - Keyboard Assembly](https://files.catbox.moe/b48x3m.png)
 
 ---
 
@@ -235,7 +254,7 @@ The display assembly was separated from the laptop chassis.
 
 The display assembly can be replaced if the screen develops dead pixels, cracks, backlight failure, or other display-related issues.
 
-![Step 18 - Display Assembly](IMAGE_URL_HERE)
+![Step 18 - Display Assembly](https://files.catbox.moe/zi8tiy.png)
 
 ---
 
